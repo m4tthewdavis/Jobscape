@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.env.local
+
+# third-party datasets (CC BY-SA 4.0 B Lab data, ~17MB) - re-download from Kaggle
+/data/
+!.env.local.example
